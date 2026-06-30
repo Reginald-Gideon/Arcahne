@@ -1,0 +1,77 @@
+.body{
+    padding: 2rem;
+}
+.connect{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.photo{
+    width: 100%;
+    max-width: 320px;
+    aspect-ratio: 3 / 4;
+    background: url(../pics/photo_2024-07-24_13-56-42.jpg) center center / cover no-repeat;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+.connect{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.tag-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    max-width: 650px;
+}
+.tag-list li a{
+    text-decoration: none;
+}
+.tag-list li{
+    background: rgb(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid  rgb(255,255,255,0.2);
+    border-radius: 50px;
+    padding: 10px 24px;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    flex: 0 1 auto;
+}
+.tag-list li:hover{
+    background: rgb(255,255,255,0.25);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15px);
+}
+.introMe{
+    width: 700px;
+    height: 500px;
+    padding: 10px;
+   
+}
+.h1 {
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 16px;
+    position: relative;
+    display: inline-block;
+    }
+    
+    .h1::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #4169E1;
+    margin: 12px auto 0;
+    border-radius: 2px;
+    }
