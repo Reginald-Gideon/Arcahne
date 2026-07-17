@@ -44,9 +44,7 @@ header{
        overflow: visible;
        z-index: 9999;
     }
- .navbar.dark-mode{
-    background: black;
- }
+ 
  
  
  /* Navigation bar container */
